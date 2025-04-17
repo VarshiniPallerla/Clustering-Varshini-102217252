@@ -32,3 +32,13 @@ Bar graphs were used to plot the average scores of each evaluation metric across
 ![image](https://github.com/user-attachments/assets/0fe8af3a-e842-4f15-8894-b3236e422cee)
 ![image](https://github.com/user-attachments/assets/c11af93c-b30a-4627-ac87-9de5a13d932b)
 ![image](https://github.com/user-attachments/assets/bb14d297-9ecd-4e01-b8e8-06603ba32608)
+
+## Best Clustering Algorithm
+Upon reviewing the plots and results, KMeans clustering consistently outperformed the other algorithms across most preprocessing methods and evaluation metrics. Specifically:​
+1. Silhouette Score: KMeans achieved higher scores, indicating well-separated clusters.
+2. Calinski-Harabasz Score: KMeans had superior scores, reflecting better cluster dispersion.
+3. Davies-Bouldin Score: KMeans recorded lower scores, suggesting more distinct clustering.​
+In contrast, Agglomerative Clustering showed moderate performance, while DBSCAN's effectiveness varied significantly depending on the preprocessing technique and parameter settings.
+
+**Best Number of Clusters:** 3
+**Best Silhouette Score:** 0.557
