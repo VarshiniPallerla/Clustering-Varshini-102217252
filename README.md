@@ -1,17 +1,17 @@
 # Clustering-Varshini-102217252
 
-##Overview
+## Overview
 This project aims to implement various clustering algorithms such as Kmeans, Agglomerative Clustering and DBSCAN clustering using different pre-processing techniques and evaluate them on different parameters. The dataset used for this project is the Heart Disease Dataset from UCI Repository.
 
-**Dataset**
+## Dataset
 https://archive.ics.uci.edu/dataset/45/heart+disease
 
-**Output**
+## Output
 ![image](https://github.com/user-attachments/assets/b5f706f1-e57a-4c58-a6b0-5a503d1e2c9c)
 ![image](https://github.com/user-attachments/assets/4ff5f8d0-c688-47b1-802c-5692de7dd5a0)
 ![image](https://github.com/user-attachments/assets/a70603a6-a93b-4a86-9f58-6d9eb01f52b7)
 
-**Line Graphs**
+## Line Graphs
 Line graphs were used to plot the variation of evaluation metrics (Silhouette Score, Calinski-Harabasz Score, Davies-Bouldin Score) across different subcluster sizes for each processing method. In this type of graph, each line represents a different processing method, and each subplot represents a different evaluation metric.
 
 **Subplots per Evaluation Metric:** The visualization consists of three subplots, each dedicated to one of the standard clustering evaluation metrics:
@@ -26,7 +26,7 @@ Line graphs were used to plot the variation of evaluation metrics (Silhouette Sc
 ![image](https://github.com/user-attachments/assets/527c1028-8411-4865-8f81-7d68d11c9543)
 ![image](https://github.com/user-attachments/assets/a1af27ea-6c1b-4fa7-b685-29d4d741d920)
 
-**Bar Graphs**
+## Bar Graphs
 Bar graphs were used to plot the average scores of each evaluation metric across different processing methods for each subcluster size. In this type of graph, each bar represents the average score of a particular metric for a specific processing method, and each subplot represents a different evaluation metric.
 
 ![image](https://github.com/user-attachments/assets/0fe8af3a-e842-4f15-8894-b3236e422cee)
