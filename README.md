@@ -41,4 +41,5 @@ Upon reviewing the plots and results, KMeans clustering consistently outperforme
 In contrast, Agglomerative Clustering showed moderate performance, while DBSCAN's effectiveness varied significantly depending on the preprocessing technique and parameter settings.
 
 **Best Number of Clusters:** 3
+
 **Best Silhouette Score:** 0.557
